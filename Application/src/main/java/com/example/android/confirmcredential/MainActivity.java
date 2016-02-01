@@ -62,7 +62,7 @@ public class MainActivity extends Activity {
      * If the user has unlocked the device Within the last this number of seconds,
      * it can be considered as an authenticator.
      */
-    private static final int AUTHENTICATION_DURATION_SECONDS = 30;
+    private static final int AUTHENTICATION_DURATION_SECONDS = 5;
 
     private KeyguardManager mKeyguardManager;
 
